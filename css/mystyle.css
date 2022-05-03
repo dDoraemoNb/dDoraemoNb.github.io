@@ -1,0 +1,70 @@
+.container{
+    min-height: 100vh;
+    padding: 100px;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.avatar{
+    width: 210px;
+    height: auto;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 10px 15px 30px 5px #929191;
+}
+
+.name{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.contact{
+    margin-bottom: 40px;
+    line-height: 200%;
+}
+
+.contact-icon{
+    margin-right: 20px; 
+    color: #262626;
+}
+
+.button{
+    text-decoration: none;
+    background-color: #262626;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        padding: 48px;
+    }
+
+    .name{
+        font-size: 28px;
+    }
+}
